@@ -10,6 +10,7 @@ const viewToDo = ({ value, id, done }, index, length) => {
   const confirmButton = document.createElement("button");
 
   //adding classes for styling
+  //asdasdasdasd
   li.classList.add("li");
   arrowContainer.classList.add("arrow_container");
 
