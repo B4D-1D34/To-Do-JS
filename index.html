@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do list</title>
+  </head>
+  <body>
+    <section class="main">
+      <button id="clearButton">Clear All todos</button>
+      <h2>Sort</h2>
+      <button id="sort_all">All</button>
+      <button id="sort_done">Done</button>
+      <button id="sort_undone">Undone</button>
+      <h1>To do list</h1>
+      <div class="inputwrapper">
+        <input id="addinput" type="text" />
+        <button id="add">add new to do</button>
+      </div>
+      <div class="errormessage">You can't create empty task</div>
+      <ul id="list"></ul>
+    </section>
+    <script src="listRepresentation.js"></script>
+    <script src="functions.js"></script>
+    <script src="sort.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
