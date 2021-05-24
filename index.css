@@ -1,0 +1,110 @@
+.main {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.inputwrapper {
+  height: 70px;
+  display: flex;
+  width: 100%;
+}
+
+.inputwrapper * {
+  height: 100%;
+  font-size: 26px;
+}
+
+h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+#addinput {
+  display: initial;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+#add {
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+ul {
+  font-size: 40px;
+  /* width: 100%; */
+  padding: 0;
+}
+
+.errormessage {
+  display: none;
+  font-size: 40px;
+  color: red;
+}
+.error {
+  display: block;
+  border-color: red;
+  visibility: visible;
+}
+
+.li {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  background-color: greenyellow;
+  height: 100%;
+  padding: 0 20px;
+}
+
+li {
+  position: relative;
+  display: flex;
+  /* width: 100%; */
+  height: 70px;
+}
+
+div div {
+  display: flex;
+  height: 50%;
+}
+
+.hidden {
+  display: none;
+}
+
+.done {
+  background-color: chocolate;
+  transition: all 0.3s;
+  color: sienna;
+}
+
+.done span {
+  text-decoration: line-through;
+}
+
+.active {
+  background-color: springgreen;
+}
+
+.arrow_container {
+  transform: translateX(-100%);
+  height: 100%;
+  position: absolute;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70px;
+}
+
+.arrow_container * {
+  display: block;
+  width: 100%;
+  height: 50%;
+}
+
+li:hover .arrow_container {
+  visibility: visible;
+}
