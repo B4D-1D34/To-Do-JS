@@ -7,7 +7,7 @@ const clearButton = document.getElementById("clearButton");
 
 /////////////////////////
 //parsing localstorage data to array to work with records
-let toDoArr = JSON.parse(localStorage.getItem("toDoList"));
+let toDoArr = JSON.parse(localStorage.getItem("toDoList")) || [];
 
 //app decides what will be shown at the list and then shows it
 const initApp = (filterBy) => {
